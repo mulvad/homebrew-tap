@@ -4,11 +4,11 @@ cask "ttm" do
 
   on_macos do
     on_intel do
-      sha256 "448f8a384ac741e61d3fb872f8c60174cce40f54155036e8453bec1d2577ae60"
+      sha256 "62fb4c44994b6e1e12460caa53857f95636740ac17b39a1b0979eb310f42dd41"
       url "https://github.com/mulvad/ttm/releases/download/v#{version}/ttm_#{version}_darwin_amd64.zip"
     end
     on_arm do
-      sha256 "a97de397dcfe2302223093d0613e009a3bc76d55e19cb75dcf8c1d8c4ef0bca7"
+      sha256 "db51e713debdc9e4c82b4fb4bf51d101a4e26e0d7ae8c4ca06266c688fa3591c"
       url "https://github.com/mulvad/ttm/releases/download/v#{version}/ttm_#{version}_darwin_arm64.zip"
     end
   end
