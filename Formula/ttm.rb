@@ -11,7 +11,7 @@ class Ttm < Formula
 
   if Hardware::CPU.intel?
     url "https://github.com/mulvad/ttm/releases/download/v0.1.0/ttm_0.1.0_darwin_amd64.tar.gz"
-    sha256 "315ba25b3a24319ab7801ef7f98587fab0867137b8934840cb7797d34ed34c90"
+    sha256 "387aba47780affdba54cf971b0728ebf666cdb725cb5cad954425487aa34bb3e"
 
     define_method(:install) do
       bin.install "ttm"
@@ -19,7 +19,7 @@ class Ttm < Formula
   end
   if Hardware::CPU.arm?
     url "https://github.com/mulvad/ttm/releases/download/v0.1.0/ttm_0.1.0_darwin_arm64.tar.gz"
-    sha256 "1dcecc75405dcde3dd6484011492ef2f65c88379553a065b9a52ce3bf38f4ba1"
+    sha256 "531f67c8a241bb7cb7946db3321d25b4e61e71ee0269542ea88cf5e6bc96fd6a"
 
     define_method(:install) do
       bin.install "ttm"
